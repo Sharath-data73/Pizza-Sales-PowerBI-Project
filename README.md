@@ -104,8 +104,6 @@ CALCULATE (
     REMOVEFILTERS ( Table1[pizza_category] )
 )
 
-# Time Intelligence Measures
-
 YTD Sales =
 TOTALYTD (
     [TOTAL_SALES],
@@ -161,14 +159,7 @@ Enabled data-driven inventory and pricing decisions
 Supported management with strategic planning insights
 
 ## References:
+
 Power BI Documentation: https://learn.microsoft.com/en-us/power-bi/
 DAX Guide: https://dax.guide/
 
-
-
-
- 
-
-Hour of Order
-
-This enabled time-series analysis.
