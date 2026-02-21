@@ -142,8 +142,10 @@ The final dashboard provided actionable insights including:
  Category-wise and size-wise contribution
  Low-performing items for possible optimization
 
- ![My Image](<img width="1335" height="750" alt="{2E775776-D55E-4E67-B609-0BE68E5578CE}" src="C:\Users\91818\OneDrive\Pictures\Screenshots" />
-)
+## Dashboard Preview
+
+<img src="<img width="1326" height="748" alt="Pizza sales Dashboard" src="https://github.com/user-attachments/assets/64724b11-b7b1-4f58-8df3-eff8420ea76c" />
+" width="900"/>
 
 ## Tools, Software, and Techniques:
 Microsoft Excel – Raw data source
