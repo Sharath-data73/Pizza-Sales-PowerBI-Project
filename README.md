@@ -41,26 +41,26 @@ This enabled time-series analysis.
 The original dataset contained order-level information including:
 Order ID,Order Date,Pizza Name,Category,Size,Quantity,Price
 # Using Power Query:
-Cleaned and formatted data
-Created calculated columns
-Ensured proper relationships in data model
-Structured dataset for efficient DAX calculations
+- Cleaned and formatted data
+- Created calculated columns
+- Ensured proper relationships in data model
+- Structured dataset for efficient DAX calculations
 
 ## Metrics Creation Using DAX
 
 After cleaning and modeling the data, I created key business metrics using DAX.
 
 ## Key Metrics:
-Total Revenue
-Total Order
-Total Pizzas Sold
-Average Order Value
-Sales by Category
-Sales by Size
-Top 5 Best-Selling Pizzas
-Bottom 5 Worst-Selling Pizzas
-Monthly Sales Trend
-Peak Sales Hours
+- Total Revenue
+- Total Order
+- Total Pizzas Sold
+- Average Order Value
+- Sales by Category
+- Sales by Size
+- Top 5 Best-Selling Pizzas
+- Bottom 5 Worst-Selling Pizzas
+- Monthly Sales Trend
+- Peak Sales Hours
 
 ## Sample DAX Formulas:
 Total Revenue = SUM(Sales[Total Price])
@@ -129,16 +129,16 @@ weekday = WEEKDAY(Table1[order_date])
 
 WEEKDAY/WEEKEND = IF(OR(Table1[weekday]=2,Table1[weekday]=7),"weekday","weekend")
 
-weeldaysen = FORMAT(Table1[weekday],"DDDD")
+weekdaysen = FORMAT(Table1[weekday],"DDDD")
 
  ## Key Insights:
 
 The final dashboard provided actionable insights including:
- Revenue Trend Analysis across months
- Identification of top-performing pizzas
- Peak order hours (business rush time)
- Category-wise and size-wise contribution
- Low-performing items for possible optimization
+ - Revenue Trend Analysis across months
+ - Identification of top-performing pizzas
+ - Peak order hours (business rush time)
+ - Category-wise and size-wise contribution
+ - Low-performing items for possible optimization
 
 ## Dashboard Preview
 
@@ -146,20 +146,20 @@ The final dashboard provided actionable insights including:
 " width="900"/>
 
 ## Tools, Software, and Techniques:
-Microsoft Excel – Raw data source
-Power Query – Data cleaning and transformation
-Power BI – Dashboard development
-DAX – KPI and metric calculation
-Data Modeling – Relationship management
+- Microsoft Excel – Raw data source
+- Power Query – Data cleaning and transformation
+- Power BI – Dashboard development
+- DAX – KPI and metric calculation
+- Data Modeling – Relationship management
 
 ## Business Impact:
-Improved visibility into revenue drivers
-Identified sales trends and peak business hour
-Enabled data-driven inventory and pricing decisions
-Supported management with strategic planning insights
+- Improved visibility into revenue drivers
+- Identified sales trends and peak business hour
+- Enabled data-driven inventory and pricing decisions
+- Supported management with strategic planning insights
 
 ## References:
 
-Power BI Documentation: https://learn.microsoft.com/en-us/power-bi/
-DAX Guide: https://dax.guide/
+- Power BI Documentation: https://learn.microsoft.com/en-us/power-bi/
+- DAX Guide: https://dax.guide/
 
